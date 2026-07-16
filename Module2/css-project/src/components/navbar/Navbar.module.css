@@ -1,0 +1,14 @@
+.navbar {
+    background-color: rgb(42, 57, 57);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 20px 30px;
+}
+
+.btn {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,23 @@
+.header {
+    background-color: aquamarine;
+    height: 80vh;
+    margin: 20px;
+    padding: 30px 40px;
+}
+
+.btn {
+    background-color: rgb(127, 170, 255);
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 20px 0;
+}
+
+.secondTitle {
+    color: orange;
+    font-size: larger;
+    background-color: blueviolet;
+}
+
+.importantTitle {
+    padding: 20px 30px;
+}

@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  margin: 20px 0 10px 0;
+  padding: 10px 0;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+
+/* card style */
+.card-parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 320px;
+  width: 270px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card .top img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #dadadd;
+  padding: 2px;
+  object-fit: contain;
+}
+
+.card .top button {
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadadd;
+  font-size: 12px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+
+
+.card .center h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card .center h3 span{
+  font-size: 10px;
+  color: #b1b1b1;
+  font-weight: 400;
+}
+
+.card .center h2{
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.card .center .tag {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.card .center .tag h4 {
+  font-size: 13px;
+  background-color: #d1d1d1;
+  border-radius: 5px;
+  padding: 3px 5px;
+  color: #111;
+  font-weight: 500;
+}
+
+.buttom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #d1d1d1;
+  padding-top: 15px;
+}
+
+.buttom button {
+  background-color: #111;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+.buttom h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttom p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #b1b1b1;
+}
+
+
+/* user styles */
+
+.user-parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.user {
+  background: linear-gradient(
+    to bottom,
+    #f5f5f5,
+    #e8fafa,
+    #bff3f5
+  );
+
+  height: 360px;
+  width: 250px;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user .upload {
+  text-align: end;
+}
+
+.user .user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.user-details img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #b1b1b1;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.user-details h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.user-details h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #b1b1b1;
+  margin-bottom: 7px;
+}
+
+.user-details .tag {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.user-details .tag p{
+  font-size: 14px;
+  color: #b1b1b1;
+  background-color: rgb(231, 242, 242);
+  border-radius: 10px;
+  padding: 3px 6px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.star-p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.star-p svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 3;
+}
+
+.user-info .para {
+  color: #b1b1b1;
+}
+
+.user .last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last button {
+  padding: 6px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-color: rgb(158, 236, 236);
+  cursor: pointer;
+}
+
+.last button:hover{
+  border: 3px solid rgb(158, 236, 236);
+  background-color: white;
+}
+
+.last .bookmark-icon {
+  width: 37px;
+  height: 37px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #d1d1d1;
+  border-radius: 50%;
+  stroke-width: 2.5;
+}
