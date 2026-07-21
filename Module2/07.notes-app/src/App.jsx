@@ -39,7 +39,7 @@ const App = () => {
           <input
             className="px-5 py-3 font-medium border-2 w-full outline-none rounded"
             type="text"
-            placeholder="Enter Your Note Tittle"
+            placeholder="Enter Your Note Title"
             value={title}
             onChange={(e) => {
               setTitle(e.target.value);
